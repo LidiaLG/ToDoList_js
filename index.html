@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/855c49f690.js" crossorigin="anonymous"></script>
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="perfil">
+            <div id="fecha">Viernes 3 de febrero del 2023</div>
+            <h1>Hola, Lidia LG</h1>
+            <span>Vamos a cumplir con esas tareas!</span>
+        </div>
+        <i class="fa-solid fa-arrow-down" id="flecha"></i>
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="Agregar tarea">
+            <i class="fa-solid fa-circle-plus"></i>
+        </div>
+        <div class="seccion-tare">
+            <h3>Tareas pendientes</h3>
+            <ul id="lista">
+                <li>
+                    <i class="fa-regular fa-circle" data="realizado" id="0"></i>
+                    <p class="text">hacer tarea</p>
+                    <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
