@@ -54,23 +54,82 @@ body{
     background-color: var(--inputs);
     border-radius: .625rem;
     border: solid 4px var(--border);
-    height: auto;
+    height: 4em;
     display: flex;
     align-items: center;
     padding: .625rem;
     gap: 4.375rem;
-    
+    margin: 0 auto;
+    width: 70%;
 }   
 
 .agregar-tarea input{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    border: none;
+    border-style: none;
     background-color: var(--inputs);
 }
 
 .agregar-tarea i{
     font-size: 35px;
     color: var(--textIcons);
+}
+
+.agregar-tarea i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar-tarea input::placeholder{
+    font-size: 1.1rem;
+    color: var(--textIcons);
+    padding-left: 1em;
+}
+
+/* Seccion Tarea */
+
+.seccion-tarea{
+    margin-top: 1.5em;
+    border: solid 4px var(--border);
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+    height: auto;
+}
+
+.seccion-tarea h3{
+    color: var(--titles);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.seccion-tarea li{
+    display: flex;
+    background-color: var(--inputs);
+    border-radius: .625rem;
+    border: solid 4px var(--border);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    color: var(--textIcons)
+}
+
+.seccion-tarea i{
+    font-size: 1.5625rem;
+}
+
+.seccion-tarea i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.seccion-tarea > ul p{
+    font-size: 1.2rem;
+
+}
+
+.line-through{
+    text-decoration: line-through;
+
 }
