@@ -1,8 +1,14 @@
 # ToDoList_js
-Aplicación para visualizar las tareas pendientes y realizadas!
+Application to view pending and completed tasks!
 
-Lista de tareas creado en JavaScript vanilla.
+Task list created in vanilla JavaScript.
 
 ----------------------------------------------------------------
 
-Link del deploy: https://todo-thingsjs.vercel.app/
+Deploy link: https://todo-thingsjs.vercel.app/
+
+----------------------------------------------------------------
+
+Preview:
+
+[![To-Do-List-Picture.jpg](https://i.postimg.cc/1tgfqD4Y/To-Do-List-Picture.jpg)](https://postimg.cc/Q938L9Qp)
